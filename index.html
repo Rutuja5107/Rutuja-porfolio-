@@ -1,1 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rutuja Kumbhar | Web Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&family=Caveat:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+    <a class="brand" href="#home">Rutuja.<span>♡</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">☰</button>
+    <nav id="navLinks">
+      <a class="active" href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="hire-btn" href="#contact">Let's chat ↗</a>
+  </header>
 
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy reveal">
+        <p class="hello">Hello, I'm <span>👋</span></p>
+        <h1>Rutuja<br><em>Kumbhar</em></h1>
+        <h2><span id="typing">Web Developer</span><i class="cursor"></i></h2>
+        <p class="intro">I build beautiful, responsive and user-friendly web applications using modern technologies.</p>
+        <div class="tech-tags">
+          <span>HTML5</span><span>CSS3</span><span>JavaScript</span>
+          <span>Bootstrap</span><span>PHP</span><span>Laravel</span><span>MySQL</span>
+        </div>
+        <div class="hero-actions">
+          <a class="primary-btn" href="#projects">Explore my work ↗</a>
+          <a class="secondary-btn" href="#contact">Contact me</a>
+        </div>
+        <div class="social-note">Open to exciting web development opportunities</div>
+      </div>
+
+      <div class="portrait-wrap reveal">
+        <div class="blob"></div>
+        <div class="spark spark-one">✳</div>
+        <div class="spark spark-two">♡</div>
+        <img class="portrait" src="girl.png" alt="AI-generated portfolio portrait of a developer">
+        <p class="photo-note">move your cursor,<br>I'll look at it! ↘</p>
+      </div>
+      <a class="scroll-cue" href="#about">↓ <span>Scroll to explore</span></a>
+    </section>
+
+    <section class="section about" id="about">
+      <p class="eyebrow">A LITTLE INTRODUCTION</p>
+      <h2>About Me <span>♡</span></h2>
+      <p class="section-text">I'm a Computer Engineering graduate and web developer who enjoys turning ideas into clean, useful digital experiences. I love learning new technologies and building websites that work beautifully across devices.</p>
+    </section>
+
+    <section class="section skills" id="skills">
+      <p class="eyebrow">WHAT I WORK WITH</p>
+      <h2>My Skills</h2>
+      <div class="skill-grid">
+        <div>HTML5 <b>Markup</b></div><div>CSS3 <b>Styling</b></div>
+        <div>JavaScript <b>Interactivity</b></div><div>Bootstrap <b>Responsive UI</b></div>
+        <div>PHP <b>Backend</b></div><div>Laravel <b>Framework</b></div>
+        <div>MySQL <b>Database</b></div><div>WordPress <b>CMS</b></div>
+      </div>
+    </section>
+
+    <section class="section projects" id="projects">
+      <p class="eyebrow">SOME THINGS I'VE BUILT</p>
+      <h2>Featured Projects</h2>
+      <div class="project-grid">
+        <article class="project-card"><span>01</span><h3>Royal Marriage Bureau</h3><p>A web project focused on presenting profiles and information through a clear, user-friendly interface.</p><small>PHP · MySQL · HTML · CSS</small></article>
+        <article class="project-card"><span>02</span><h3>Client Websites</h3><p>Responsive business websites with polished layouts, useful forms and cross-device compatibility.</p><small>HTML · CSS · Bootstrap · JavaScript</small></article>
+        <article class="project-card"><span>03</span><h3>REST API Development</h3><p>Backend practice building CRUD endpoints, validation and database-connected applications.</p><small>PHP · Laravel · MySQL</small></article>
+      </div>
+      <p class="edit-note">Replace these sample project descriptions with your actual project links and details.</p>
+    </section>
+
+    <section class="section contact" id="contact">
+      <p class="eyebrow">HAVE A PROJECT OR OPPORTUNITY?</p>
+      <h2>Let's work together</h2>
+      <p>I'm happy to connect about web development opportunities and creative projects.</p>
+      <a class="primary-btn" href="mailto:your-email@example.com">Email me ↗</a>
+      <p class="edit-note">Update the email address in this button before publishing.</p>
+    </section>
+  </main>
+
+  <footer>Made with care by Rutuja Kumbhar · © <span id="year"></span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
