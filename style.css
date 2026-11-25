@@ -1,3 +1,19 @@
+
+
+
+/* Fix: make the Home page content visible */
+.reveal {
+  opacity: 1 !important;
+  transform: none !important;
+  visibility: visible !important;
+}
+
+.hero-copy,
+.portrait-wrap {
+  display: block;
+  visibility: visible;
+}
+
 *{box-sizing:border-box;margin:0;padding:0}
 :root{--ink:#292333;--muted:#766f78;--peach:#f47d60;--cream:#fff8f0;--pink:#f8dfd4}
 html{scroll-behavior:smooth}
